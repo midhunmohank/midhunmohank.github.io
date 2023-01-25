@@ -1,5 +1,24 @@
-## Portfolio
+## I can woth with -
 
+### <b>Skills</b>:
+  Statistical Analysis, Supervised Machine Learning, Deep Learning, A/B testing, Test Driven Development
+
+---
+### <b>Tools</b>:
+  Languages: Python
+  Databases: Oracle SQL, MySQL, MongoDB, Cassandra, Azure NoSQL, Cosmos
+  ML Packages: Sklearn,Tensorflow, Keras
+  Cloud Platform: AWS
+  BI Tools: Power BI, AWS Quicksight
+  Data Visualisation: Power BI, Tableau
+  Data Engineering: Airflow, PySpark
+  Front End: Flask, Django
+  Web Apps: Streamlit, Heroku
+  Containerization: Docker, Kubernetes 
+  Version Control: Git
+  CI/CD: Github Actions
+  CLI: BASH, Shell
+  
 ---
 
 ### Category Name 1 

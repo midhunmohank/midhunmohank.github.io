@@ -1,27 +1,10 @@
 title: Midhun Mohan # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  Ex-Amazon | Data Engineer
+  Data Engineer | Ex-Amazon
   Northeastern'23 MS Information Systems
   <br><br>
-  <b>Skills</b>:
-  Statistical Analysis, Supervised Machine Learning, Deep Learning, A/B testing, Test Driven Development
-  <br><br>
-  <b>Tools</b>:
 
-  Languages: Python
-  Databases: Oracle SQL, MySQL, MongoDB, Cassandra, Azure NoSQL, Cosmos
-  ML Packages: Sklearn,Tensorflow, Keras
-  Cloud Platform: AWS
-  BI Tools: Power BI, AWS Quicksight
-  Data Visualisation: Power BI, Tableau
-  Data Engineering: Airflow, PySpark
-  Front End: Flask, Django
-  Web Apps: Streamlit, Heroku
-  Containerization: Docker, Kubernetes 
-  Version Control: Git
-  CI/CD: Github Actions
-  CLI: BASH, Shell
 
   <br><br>
   <a href="https://www.linkedin.com/in/hiremohan/">View My LinkedIn Profile</a> 
