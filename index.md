@@ -1,25 +1,4 @@
-## I can work with -
-
-### <b>Skills</b>:
-  <l>Statistical Analysis, Supervised Machine Learning, Deep Learning, A/B testing, Test Driven Development</l>
-
----
-### <b>Tools</b>:
-<l>
-  <li>Languages: Python</li>
-  <li>Databases: Oracle SQL, MySQL, MongoDB, Cassandra, Azure NoSQL, Cosmos</li>
-  <li>ML Packages: Sklearn,Tensorflow, Keras</li>
-  <li>Cloud Platform: AWS</li>
-  <li>BI Tools: Power BI, AWS Quicksight</li>
-  <li>Data Visualisation: Power BI, Tableau</li>
-  <li>Data Engineering: Airflow, PySpark</li>
-  <li>Front End: Flask, Django</li>
-  <li>Web Apps: Streamlit, Heroku</li>
-  <li>Containerization: Docker, Kubernetes </li>
-  <li>Version Control: Git</li>
-  <li>CI/CD: Github Actions</li>
-  <li>CLI: BASH, Shell</li>
-</l>
+## Projects:
 ---
 
 ## Projects I've worked on - 
@@ -32,10 +11,10 @@
 
 ---
 
-### End to End Database Applications
+### Data as a Service Applications
 
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Geospatial Data as a Service Tool for Analysts: A Streamlit App for Downloading and Visualizing NOA Satellite Datasets](https://github.com/midhunmohank/DaasSEVIR)
+<img src="images/DaasSEVIR.png?raw=true"/>
 
 ---
 
