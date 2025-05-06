@@ -1,80 +1,79 @@
 /* style.css */
 :root {
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --bg: #fff;
-  --fg: #111;
-  --accent: #006699;
-  --maxw: 700px;
+  --fg: #1d1d1f;
+  --accent: #0071e3;
+  --maxW: 640px;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+* { margin: 0; padding: 0; box-sizing: border-box; }
 body {
-  font-family: system-ui, sans-serif;
+  font-family: var(--font);
   color: var(--fg);
   background: var(--bg);
   line-height: 1.5;
-  padding: 1rem;
-  max-width: var(--maxw);
-  margin: auto;
+  max-width: var(--maxW);
+  margin: 2rem auto;
+  padding: 0 1rem;
 }
 a {
   color: var(--accent);
   text-decoration: none;
 }
-header {
-  text-align: center;
+a:hover { text-decoration: underline; }
+nav {
+  text-align: right;
+  font-size: 0.9rem;
   margin-bottom: 2rem;
+}
+nav a + a::before {
+  content: " • ";
+  color: #ccc;
 }
 header h1 {
-  font-size: 1.75rem;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
 }
-.contact {
-  font-size: 0.9rem;
-  margin-top: 0.5rem;
-}
-section {
+header p {
+  color: #6e6e73;
   margin-bottom: 2rem;
+  font-size: 0.95rem;
 }
-section h2 {
-  font-size: 1.3rem;
-  margin-bottom: 0.5rem;
-  border-bottom: 2px solid var(--accent);
-  display: inline-block;
+h2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 2rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid #e5e5e5;
 }
 .entry {
   margin-top: 1rem;
 }
 .entry h3 {
-  font-size: 1.1rem;
-  margin-bottom: 0.2rem;
+  font-size: 1.05rem;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
 }
-.meta {
-  font-style: italic;
+.entry p {
   font-size: 0.9rem;
+  color: #6e6e73;
+  margin-bottom: 0.3rem;
 }
-.date {
-  font-size: 0.85rem;
-  color: #555;
-  margin-bottom: 0.5rem;
-}
-.entry ul {
-  list-style: disc inside;
-  margin-left: 1rem;
-}
-.skills {
+ul {
   list-style: none;
-  columns: 2;
+  margin-left: 0;
+}
+ul li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
 }
 footer {
   text-align: center;
-  font-size: 0.8rem;
-  color: #666;
   margin-top: 3rem;
+  color: #8e8e93;
+  font-size: 0.8rem;
 }
 @media (max-width: 480px) {
-  .skills {
-    columns: 1;
-  }
+  body { margin: 1.5rem auto; }
 }
