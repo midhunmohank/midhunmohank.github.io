@@ -1,82 +1,103 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Midhun Mohan - Portfolio</title>
-    <link rel="stylesheet" href="style.css"> 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Midhun Mohan Kudayattutharayil — Resume</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header>
+    <h1>Midhun Mohan Kudayattutharayil</h1>
+    <p class="contact">
+      <a href="mailto:mohan.ku@northeastern.edu">mohan.ku@northeastern.edu</a> |
+      <a href="tel:+14048839420">404-883-9420</a> |
+      <a href="https://www.linkedin.com/in/hiremohan" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/midhunmohank" target="_blank">GitHub</a> |
+      <a href="http://midhunmohan.me" target="_blank">Portfolio</a>
+    </p>
+  </header>
 
-    <header>
-        <h1>Midhun Mohan</h1>
-        <p>Software Engineer | Data Scientist | Machine Learning Enthusiast</p> 
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <main>
+    <section>
+      <h2>Education</h2>
+      <div class="entry">
+        <h3>Northeastern University</h3>
+        <p class="meta">M.S. in Computer Software Engineering — Boston, MA</p>
+        <p class="date">Jan 2022 – May 2024</p>
+      </div>
+    </section>
 
-    <main>
-        <section id="about"> 
-            <h2>About Me</h2>
-            <p>
-              I'm a Master's student in Computer Software Engineering at Northeastern University,  passionate about utilizing data science and machine learning to solve real-world problems. I have hands-on experience in building data pipelines, developing machine learning models, and deploying cloud-based solutions.  
-            </p>
-        </section>
+    <section>
+      <h2>Experience</h2>
 
-        <section id="experience">
-            <h2>Work Experience</h2>
-            <div class="job">
-                <h3>Software Engineering Intern</h3>
-                <p>Allurion Technologies Inc, Boston, MA | January 2024 - Present</p>
-                <ul>
-                    <li>Migrated the entire org's CI/CD pipeline from Buildkite to Github Actions.</li>
-                    <li>Currently working on a Knowledge Graph Based Content Routing Approach.</li>
-                </ul>
-            </div>
-            <div class="job">
-                <h3>Machine Learning Engineer Co-op</h3>
-                <p>Allurion Technologies Inc, Boston, MA | September 2023 - January 2024</p>
-                <ul>
-                    <li>Developed a RAG on Pinecone and a workflow orchestrator with AWS Lambda.</li>
-                    <li>Developed a A/B test framework to test LLM responses, RAG, Routing, and prompts.</li>
-                </ul>
-            </div>
-            </section>
+      <div class="entry">
+        <h3>Founding Engineer, Assure AI, INC</h3>
+        <p class="meta">Boston, MA</p>
+        <p class="date">Oct 2024 – Present</p>
+        <ul>
+          <li>Built an agentic AI platform for healthcare sales with asynchronous AutoGen.</li>
+          <li>Implemented intent-recognition orchestrator.</li>
+          <li>Engineered a parsing agent using LibreOffice, Tesseract OCR &amp; Claude LLM.</li>
+          <li>Deployed a multi-modal knowledge base (vector + graph) on MongoDB &amp; S3.</li>
+        </ul>
+      </div>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Project Vending Machine</h3>
-                <p>Built an intelligent boilerplate code generator for data engineering projects in under 4 minutes. Leverages ChatGPT API and Docker.</p>
-                <a href="https://github.com/yourusername/project-vending-machine" target="_blank">View on GitHub</a>
-            </div>
-            </section>
+      <div class="entry">
+        <h3>Data Scientist, Shoptaki Inc</h3>
+        <p class="meta">Boston, MA — Aug 2024 – Sep 2024</p>
+        <ul>
+          <li>Deployed Llama 3.2 on IBM Cloud for SQL generation.</li>
+          <li>Built a Text-to-SQL engine to automate database queries.</li>
+        </ul>
+      </div>
 
-        <section id="skills">
-            <h2>Technical Skills</h2>
-            </section>
+      <div class="entry">
+        <h3>Machine Learning Engineer Co-op, Allurion Technologies Inc.</h3>
+        <p class="meta">Boston, MA — Sep 2023 – May 2024</p>
+        <ul>
+          <li>Migrated CI/CD to GitHub Actions; cut RAG costs 20× by serverless Pinecone.</li>
+          <li>Built Neo4j-based NER, recommendation &amp; routing agents using LangChain.</li>
+          <li>Deployed XGBoost weight-loss predictor on SageMaker &amp; RDS.</li>
+          <li>Orchestrated ML workflows via Lambda microservices; A/B-tested LLM pipelines.</li>
+        </ul>
+      </div>
 
-        <section id="contact">
-            <h2>Get in Touch</h2>
-            <ul>
-                <li>Boston, MA</li> 
-                <li>4048839420</li>
-                <li>mohan.ku@northeastern.edu</li> 
-                <li><a href="www.linkedin.com/in/hiremohan" target="_blank">LinkedIn</a></li>
-            </ul>
-        </section>
-    </main>
+      <div class="entry">
+        <h3>Teaching Assistant, Data Science &amp; Engineering Methods</h3>
+        <p class="meta">Northeastern University — Jan 2023 – Aug 2023</p>
+        <ul>
+          <li>Co-developed ML course materials; labs &amp; assignments.</li>
+          <li>Built a Stable Diffusion demo app for the NU Art Lab.</li>
+        </ul>
+      </div>
 
-    <footer>
-        <p>&copy; 2024 Midhun Mohan</p>
-    </footer>
+      <div class="entry">
+        <h3>Machine Learning Data Analyst, Amazon</h3>
+        <p class="meta">Hyderabad, India — Apr 2019 – Dec 2021</p>
+        <ul>
+          <li>Improved Alexa NLU data-label accuracy by 10% via QC pipelines.</li>
+          <li>Led training for a 150-person labeling team; boosted efficiency 5%.</li>
+          <li>Built feature pipelines &amp; statistical models for voice recognition.</li>
+        </ul>
+      </div>
+    </section>
 
-    <script src="script.js"></script> 
+    <section>
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li><strong>Languages:</strong> Python, SQL, Bash</li>
+        <li><strong>ML &amp; Data:</strong> scikit-learn, TensorFlow, PyTorch, XGBoost, RAG, LangChain</li>
+        <li><strong>Cloud &amp; Infra:</strong> AWS (SageMaker, Lambda, ECS, Glue), Azure ML, Docker, Kubernetes</li>
+        <li><strong>Databases:</strong> PostgreSQL, MongoDB, Neo4j, Snowflake, Pinecone</li>
+        <li><strong>Tools:</strong> GitHub Actions, Airflow, MLflow, DVC, Great Expectations</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Midhun Mohan Kudayattutharayil</p>
+  </footer>
 </body>
 </html>
